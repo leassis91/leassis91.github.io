@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f0136789.css",
-    "main.js": "/portfolio/static/js/main.425b6de5.js",
+    "main.js": "/portfolio/static/js/main.12d283f9.js",
     "static/media/road_safety.png": "/portfolio/static/media/road_safety.141c607264d6ef7d3d98.png",
     "static/media/health_insurance.png": "/portfolio/static/media/health_insurance.21b068df5f102b7baff3.png",
     "static/media/rossmann.jpg": "/portfolio/static/media/rossmann.05aed142a075501b9dec.jpg",
@@ -12,10 +12,10 @@
     "static/media/tableaulk.png": "/portfolio/static/media/tableaulk.e530fe40b8e58ff767db.png",
     "index.html": "/portfolio/index.html",
     "main.f0136789.css.map": "/portfolio/static/css/main.f0136789.css.map",
-    "main.425b6de5.js.map": "/portfolio/static/js/main.425b6de5.js.map"
+    "main.12d283f9.js.map": "/portfolio/static/js/main.12d283f9.js.map"
   },
   "entrypoints": [
     "static/css/main.f0136789.css",
-    "static/js/main.425b6de5.js"
+    "static/js/main.12d283f9.js"
   ]
 }
