@@ -1,118 +1,225 @@
 import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
-import {ImBook} from "react-icons/im";
+// import {ImBook} from "react-icons/im";
+import {MdRealEstateAgent} from "react-icons/md"
+import {FaTelegramPlane, FaKaggle} from "react-icons/fa";
+import {SiTableau} from "react-icons/si"
+import {SiGooglesheets} from "react-icons/si";
 
-import sklearnGenetic from "../images/sklearn_genetic_opt.png"
-import kafkaMl from "../images/kafkaml.png"
-import portfolio from "../images/portfolio.png"
+import health_insurance from "../images/health_insurance.png"
+import road_safety from "../images/road_safety.png"
+import rossmann from "../images/rossmann.jpg"
+import hackday from "../images/hackday.png"
+import housesale from "../images/housesale.jpg"
+import mcars from "../images/mcars.jpg"
+import tableaulk from "../images/tableaulk.png"
+
+
 
 import React from 'react'
 
 const projectConfig = [
     {
-        id: "project-5",
-        title: "Sklearn Genetic Opt",
+        id: "project-6",
+        title: "Health Insurance Ranking",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
+                url: "https://github.com/leassis91/health-insurance/",
                 icon: <AiFillGithub/>,
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/fork",
+                url: "https://github.com/leassis91/health-insurance/fork",
                 icon: <BiGitRepoForked/>,
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/subscription",
+                url: "https://github.com/leassis91/health-insurance/subscription",
                 icon: <AiFillEye/>,
             },
             {
-                name: "docs",
-                url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
+                name: "demo",
+                url: "https://github.com/leassis91/health-insurance/blob/main/image/score-sheets.gif",
+                icon: <SiGooglesheets/>,
             }
         ],
-        image: sklearnGenetic,
-        description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
+        image: health_insurance,
+        description: "Creation of a ranking algorithm for new customers, based on interest survey data carried out with old customers. The project was deployed via Google Sheets with Apps Script.",
+        target: "_blank"
+    },
+    {
+        id: "project-5",
+        title: "Hackday 2nd Edition",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/leassis91/mobilitycars/",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "fork",
+                url: "https://github.com/leassis91/mobilitycars/fork",
+                icon: <BiGitRepoForked/>
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/leassis91/mobilitycars/subscription",
+                icon: <AiFillEye/>
+            },
+            {
+                name: "kaggle-comp",
+                url: "https://www.kaggle.com/competitions/mobilitycars/overview",
+                icon: <FaKaggle/>
+            }
+        ],
+        image: mcars,
+        description: "Solution for 2nd place in Hackday, a regression modeling hackathon on vehicle sale prices in Brazil, hosted by Comunidade DS.",
+        target: "_blank"
+    },
+    {
+        id: "project-4",
+        title: "LinkedIn Data Analysis",
+        links: [
+            {
+                name: "repo",
+                url: "https://public.tableau.com/app/profile/leandrodestefani/viz/LinkedInDataAnalysis_16608723114230/Dashboard1",
+                icon: <SiTableau/>
+            }
+            // {
+            //     name: "fork",
+            //     url: "https://github.com/leassis91/rossmann_store/fork",
+            //     icon: <BiGitRepoForked/>
+            // },
+            // {
+            //     name: "subscription",
+            //     url: "https://github.com/leassis91/rossmann_store/subscription",
+            //     icon: <AiFillEye/>
+            // },
+            // {
+            //     name: "",
+            //     url: "https://t.me/rossmannleassis_bot",
+            //     icon: <FaTelegramPlane/>
+            // }
+        ],
+        image: tableaulk,
+        description: "Brief analysis of my LinkedIn Profile Data, using some tools like Python (Pandas), MS Excel, Figma deployed in Tableau.",
         target: "_blank"
     },
     {
         id: "project-3",
-        title: "Kafkaml Anomalies",
+        title: "Rossmann Store Sales",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
+                url: "https://github.com/leassis91/rossmann_store/",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/fork",
+                url: "https://github.com/leassis91/rossmann_store/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/subscription",
+                url: "https://github.com/leassis91/rossmann_store/subscription",
                 icon: <AiFillEye/>
+            },
+            {
+                name: "telegram-bot",
+                url: "https://t.me/rossmannleassis_bot",
+                icon: <FaTelegramPlane/>
             }
         ],
-        image: kafkaMl,
-        description: "Project for real-time anomaly detection using kafka and python.",
+        image: rossmann,
+        description: "Forecast of the sales of over 3,000 stores up to 6 weeks in advance. The values can be accessed from a Telegram Bot.",
         target: "_blank"
     },
     {
         id: "project-2",
-        title: "Pyworkforce",
+        title: "Hackday Competition",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/pyworkforce",
+                url: "https://github.com/leassis91/hackday_ds/",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/fork",
+                url: "https://github.com/leassis91/hackday_ds/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/subscription",
+                url: "https://github.com/leassis91/hackday_ds/subscription",
                 icon: <AiFillEye/>
             },
             {
-                name: "docs",
-                url: "https://pyworkforce.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
+                name: "kaggle-comp",
+                url: "https://www.kaggle.com/competitions/inclusao-financeira-na-africa",
+                icon: <FaKaggle/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Standard tools for workforce management, queuing, scheduling, rostering and optimization problems.",
+        image: hackday,
+        description: "Achieved 3rd place in a live ML competition by Comunidade DS, focused on predicting bank account ownership.",
         target: "_blank"
     },
     {
         id: "project-1",
-        title: "Portfolio Web",
+        title: "Road Safety",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/portfolio",
+                url: "https://github.com/leassis91/Portfolio_Projects/blob/main/Insights_Projects/Accidents/",
                 icon: <AiFillGithub/>
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/portfolio/fork",
+                url: "https://github.com/leassis91/Portfolio_Projects/blob/main/Insights_Projects/Accidents/",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/portfolio/subscription",
+                url: "https://github.com/leassis91/Portfolio_Projects/blob/main/Insights_Projects/Accidents/",
                 icon: <AiFillEye/>
             }
+            // {
+            //     name: "docs",
+            //     url: "https://pyworkforce.readthedocs.io/en/stable/",
+            //     icon: <ImBook/>,
+            // }
         ],
-        image: portfolio,
-        description: "Source code of my current portfolio web page as data scientist.",
+        image: road_safety,
+        description: "Report based on intense data exploration, created to help UK Government to increase road safety and save lives.",
+        target: "_blank"
+    },
+    {
+        id: "project-0",
+        title: "House Rocket",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/leassis91/Portfolio_Projects/tree/main/Insights_Projects/HouseRocketEDA",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "fork",
+                url: "https://github.com/leassis91/HouseRocketApp/fork",
+                icon: <BiGitRepoForked/>
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/leassis91/HouseRocketApp/subscription",
+                icon: <AiFillEye/>
+            },
+            {
+                name: "dashboard",
+                url: "https://leassis91-houserocketapp-dashboard-bxzs7g.streamlitapp.com/",
+                icon: <MdRealEstateAgent/>
+            }
+        ],
+        image: housesale,
+        description: "Identified properties priced below the average and defined optimal resale values to maximize profit in an interactive dashboard.",
         target: "_blank"
     }
 ]
