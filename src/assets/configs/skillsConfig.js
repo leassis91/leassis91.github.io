@@ -192,18 +192,18 @@ const skillsConfig = {
         //     icon: <SiJavascript size={30}/>,
         //     text: "Responsibility"
         // },
-        {
-            id: "skills-11",
-            className: "skill-icon",
-            icon: <FaBalanceScale size={30}/>,
-            text: "Integrity"
-        },
-        {
-            id: "skills-12",
-            className: "skill-icon",
-            icon: <GiSwordsPower size={30}/>,
-            text: "Work Under Pressure"
-        }
+        // {
+        //     id: "skills-11",
+        //     className: "skill-icon",
+        //     icon: <FaBalanceScale size={30}/>,
+        //     text: "Integrity"
+        // },
+        // {
+        //     id: "skills-12",
+        //     className: "skill-icon",
+        //     icon: <GiSwordsPower size={30}/>,
+        //     text: "Work Under Pressure"
+        // }
     ]
 }
 

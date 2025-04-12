@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Box, Container } from '@mui/material';
 import ReactGA from 'react-ga';
 import NavBar from './components/NavBar/NavBar';
@@ -9,7 +9,7 @@ import Blogs from './pages/Blogs';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
-import React from 'react';
+import React, {useEffect} from 'react';
 
 if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
     ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
