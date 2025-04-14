@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Box, Container } from '@mui/material';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 import NavBar from './components/NavBar/NavBar';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects';
